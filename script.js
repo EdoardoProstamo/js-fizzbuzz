@@ -10,9 +10,11 @@ if (i%3==0) {
 else if (i%5==0) {
     console.log("Buzz");
 }
+// Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz. 
+else if (i%3==0 && i%5==0) {
+    console.log("FizzBuzz");
+}
     
 }
 
-
-// Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz. 
 
